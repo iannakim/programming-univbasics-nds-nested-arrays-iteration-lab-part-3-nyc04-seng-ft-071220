@@ -18,11 +18,6 @@ while row_of_index < src[row_of_index].length do
        inner_array=+1
   end
   row_of_index+=1
-  p result_string
 end
-
-  result_string << #an array of joined strings.join
-
-
   p result_string
 end
