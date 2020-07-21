@@ -1,4 +1,28 @@
+mixed_data = [
+  ["The", 4, "quick"],
+  [-1, "brown", "fox", 30],
+  ["studied", 101, 233, "Ruby"]
+]
+
+join_nested_strings(mixed_data)
+
 def join_nested_strings(src)
-  # src will be an Array of Arrays of Strings and Integers
-  # Combine all Strings present in the AoA into a single value and return it
+  result_string=[]
+  row_of_index=0
+while row_of_index < src[row_of_index].length do
+  inner_array=0
+  while inner_array < src[row_of_index][inner_array].length do
+    if src[row_of_index][inner_array].class == String
+       phrase= src[row_of_index][inner_array].join(' ')
+       result_string<<phrase
+       inner_array=+1
+  end
+  row_of_index+=1
+  p result_string
+end
+
+  result_string << #an array of joined strings.join
+
+
+  p result_string
 end
