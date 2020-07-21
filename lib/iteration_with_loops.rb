@@ -9,8 +9,9 @@ while row_of_index < src.length do
        result_string<<phrase
        inner_array+=1
      end
+   end
   row_of_index+=1
 end
   p result_string.join
 end
-end
+
