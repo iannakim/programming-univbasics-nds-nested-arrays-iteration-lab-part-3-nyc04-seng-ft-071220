@@ -1,9 +1,9 @@
 def join_nested_strings(src)
   result_string=[]
   row_of_index=0
-while row_of_index < src[row_of_index].length do
+while row_of_index < src.length do
   inner_array=0
-  while inner_array < src[row_of_index][inner_array].length do
+  while inner_array < src[row_of_index].length do
     if src[row_of_index][inner_array].class == String
        phrase=src[row_of_index][inner_array]
        result_string<<phrase
