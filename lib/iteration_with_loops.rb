@@ -8,8 +8,9 @@ while row_of_index < src.length do
        phrase=src[row_of_index][inner_array]
        result_string<<phrase
        inner_array+=1
-  end
+     end
   row_of_index+=1
 end
   p result_string.join
+end
 end
