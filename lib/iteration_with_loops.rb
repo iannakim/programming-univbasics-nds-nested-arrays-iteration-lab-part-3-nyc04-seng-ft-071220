@@ -12,3 +12,5 @@ while row_of_index < src[row_of_index].length do
   row_of_index+=1
 end
   p result_string
+end
+end
