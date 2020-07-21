@@ -14,4 +14,3 @@ while row_of_index < src.length do
 end
   p result_string.join
 end
-
